@@ -1,0 +1,15 @@
+@use "../base/variables";
+
+.footer {
+    padding: variables.$separacion * 0.5 0;
+    background-color: variables.$grisOscuro;
+
+    .contenido-footer {
+        padding-top: variables.$separacion * 0.5;
+    }
+
+    .copyrigth {
+        color: variables.$blanco;
+        text-align: center;
+    }
+}
